@@ -1,9 +1,9 @@
-import { Switch } from 'react-router-dom';
-import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Dashboard from './views/Dashboard';
-import Stats from './views/Stats';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Invoices from './views/Invoices';
+import React from 'react';
+import Stats from './views/Stats';
+import { Switch } from 'react-router-dom';
 
 function App() {
   return (
